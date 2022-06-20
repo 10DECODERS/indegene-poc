@@ -1,0 +1,19 @@
+.card {
+  padding: 30px;
+  color: #000;
+  background-color: white;
+}
+.bg {
+  background-color: #f4f5f5;
+}
+
+.whts_title {
+  font-size: 40px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+}
+.img_title {
+  font-size: 24px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+}

@@ -1,0 +1,21 @@
+.bgblue {
+  background-color: #034ea2;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerText {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .flexDirect {
+    flex-direction: column;
+  }
+  .gap20 {
+    gap: 20px !important;
+  }
+}

@@ -1,0 +1,43 @@
+.card {
+  background-color: #72bf44;
+  padding: 10px 15px;
+  color: white;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: Nunito Sans;
+}
+.title_header {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: Poppins;
+}
+.title_desc {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Nunito Sans;
+}
+@media screen and (min-width: 767px) {
+  .ml60 {
+    margin-left: 60px;
+  }
+  .mr60 {
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .title {
+    text-align: center;
+  }
+  .styles.video {
+    margin: 0 auto;
+    display: block;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}

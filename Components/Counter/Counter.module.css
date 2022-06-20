@@ -1,0 +1,17 @@
+.bgblue {
+  background-color: #034ea2;
+}
+.card {
+  background-color: #00c0f3;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .gap30 {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,39 @@
+.bgblue {
+  background-color: #034ea2;
+}
+.TestimonialBorder {
+  border: solid 5px #ffde2f;
+}
+
+.testimonialTitle {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: #034ea2;
+  padding: 0 50px;
+}
+.testimonial_desc {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Nunito Sans;
+}
+
+.testimonial_auth {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Nunito Sans;
+}
+.testimonial_content {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Nunito Sans;
+}
+.customPadding {
+  padding: 20px;
+}
+@media screen and (min-width: 767px) {
+  .customPadding {
+    padding: 30px 80px;
+  }
+}

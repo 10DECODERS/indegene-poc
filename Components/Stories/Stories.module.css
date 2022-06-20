@@ -1,0 +1,51 @@
+.banner {
+  background-color: #034ea2;
+}
+.boxone {
+  background-color: #00c0f3;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+.boxTwo {
+  background-color: white;
+  color: #034ea2;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .boxone {
+    width: 150px;
+    height: 150px;
+  }
+  .boxTwo {
+    width: 150px;
+    height: 150px;
+  }
+  .gap30 {
+    gap: 30px;
+  }
+}
+.heading {
+  color: #ffde2f;
+  background-color: #034ea2;
+}
+.transprent {
+  background-color: #044ea2;
+}
+.text_fields_header {
+  font-size: 40px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+}
+.text_fields {
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 300;
+}
+.box_title {
+  font-size: 24px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+}
