@@ -18,26 +18,27 @@ export default function Form() {
               <div
                 className={`col-lg-6 col-md-6 col-sm-12 ${styles.formInputMain}`}
               >
-                <input type="text" id="name" name="name" placeholder="Name" />
+                <input type="text" id="name" name="name" placeholder="Name*" />
                 <input
                   type="text"
                   id="email"
                   name="email"
-                  placeholder="Email"
+                  placeholder="Email*"
                 />
                 <input
                   type="text"
                   id="Company"
                   name="Company"
-                  placeholder="Company"
+                  placeholder="Company*"
                 />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="col-lg-6 col-md-6 col-sm-12 ">
                 <textarea
                   className={`${styles.textarea}`}
                   id="w3review"
                   name="w3review"
                   rows="4"
+                  placeholder="Message"
                 ></textarea>
               </div>
               <div className="col-12">
@@ -50,7 +51,7 @@ export default function Form() {
                       value="CSS"
                       className="me-2"
                     />
-                    <label>Business Opportunity</label>
+                    <label className="text-white">Business Opportunity</label>
                   </div>
                   <div>
                     <input
@@ -60,7 +61,7 @@ export default function Form() {
                       value="CSS"
                       className="me-2"
                     />
-                    <label>Career Opportunity</label>
+                    <label className="text-white">Career Opportunity</label>
                   </div>
                 </div>
                 <button className={`mt-3 mb-5 ${styles.button}`}>Submit</button>

@@ -8,3 +8,6 @@
 .logo_width {
   width: 120px;
 }
+.dropDown {
+  background-image: url("../../Assets/Images/Down.svg");
+}

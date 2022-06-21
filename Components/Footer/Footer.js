@@ -21,7 +21,7 @@ export default function Footer({ footer }) {
                   <a>{data.cta}</a>
                 ))}
               </div>
-              <div className={`d-flex gap-2 ${styles.flexDirect}`}>
+              <div className={`d-flex gap-3 ${styles.flexDirect}`}>
                 <LinkedInIcon />
                 <InstagramIcon />
                 <TwitterIcon />

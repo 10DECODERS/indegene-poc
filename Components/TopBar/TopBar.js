@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import styles from "../../styles/Home.module.css";
 function TopBar() {
   return (
-    <div class="container-fluid bg-primary">
+    <div class={`container-fluid ${styles.backGround}`}>
       <div className="container">
         <div className={`d-flex justify-content-between ${styles.textCenter}`}>
           <div>

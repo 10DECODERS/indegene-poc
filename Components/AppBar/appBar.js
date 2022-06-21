@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./appBar.module.css";
 import SearchIcon from "@material-ui/icons/Search";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function Navbar(props) {
   const menuBar = props.appBar.menu;
 
@@ -30,10 +31,14 @@ function Navbar(props) {
         >
           <ul class={`${styles.header} navbar-nav `}>
             <li class="nav-item">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center gap-4">
                 {menuBar.map((item) => (
                   <a class="nav-link active" aria-current="page" href="#">
                     {item}
+                    <ArrowDropDownIcon
+                      style={{ color: "#ED0677" }}
+                      className="mb-0"
+                    />
                   </a>
                 ))}
                 <SearchIcon />

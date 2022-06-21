@@ -17,7 +17,7 @@ export default function Testimonial({ testimonial }) {
                 <h4>{testimonial.title}</h4>
                 <h6>-{testimonial.name}</h6>
                 <p>
-                  {testimonial.designation},{testimonial.companyName}
+                  {testimonial.designation},&nbsp;{testimonial.companyName}
                 </p>
               </div>
             </div>
