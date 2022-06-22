@@ -15,8 +15,8 @@ export default function TrustedPartners({ trustedPartner }) {
                 <>
                   <div className="col-lg-6 col-sm-12">
                     <video
-                      width="320"
-                      height="240"
+                      width="520"
+                      height="430"
                       className={`${styles.video}`}
                       controls
                     >

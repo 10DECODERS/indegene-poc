@@ -31,13 +31,15 @@
   .title {
     text-align: center;
   }
-  .styles.video {
-    margin: 0 auto;
-    display: block;
-  }
+
   .card {
     width: 80%;
     margin: 0 auto;
     display: block;
   }
+}
+.video {
+  object-fit: cover;
+  margin-left: -50px;
+  margin-top: -64px;
 }

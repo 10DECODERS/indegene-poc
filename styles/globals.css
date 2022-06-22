@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+.accordion-button::after {
+  background-image: url(../Assets/Images/accordian.svg) !important;
+  background-size: contain !important;
+  width: 10px !important;
+}

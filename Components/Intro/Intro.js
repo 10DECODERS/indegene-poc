@@ -12,7 +12,7 @@ function Intro(props) {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center txt-left flex-column ps-5 col-6">
             <div className="d-flex align-items-center img-overlay">
-              <video width="320" height="240" controls>
+              <video width="520" height="320" controls>
                 <source
                   src="https://indegenerep.s3.ap-south-1.amazonaws.com/videos/indegene-corporate-video.mp4"
                   type="video/mp4"

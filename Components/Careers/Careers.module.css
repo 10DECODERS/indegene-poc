@@ -9,7 +9,7 @@
 .card {
   padding: 30px;
   background-color: white;
-  margin-top: 18%;
+  margin-top: 14%;
 }
 .title {
   color: #034ea2;
@@ -30,8 +30,10 @@
 }
 .bg_carrier {
   background-image: url("../../Assets/Images/Placeholder.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .content {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
 }

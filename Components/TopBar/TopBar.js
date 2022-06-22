@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "../../styles/Home.module.css";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function TopBar() {
   return (
     <div class={`container-fluid ${styles.backGround}`}>
@@ -27,6 +28,10 @@ function TopBar() {
                 className={`rounded-0  mt-0 ${styles.menu_button}`}
               >
                 Contact us
+                <ArrowDropDownIcon
+                  style={{ color: "white" }}
+                  className="mb-0"
+                />
               </Button>
             </div>
           </div>
